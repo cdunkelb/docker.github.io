@@ -98,7 +98,7 @@ consistency and compatibility reasons.
 * LCOW: Mount to short container paths to avoid command-line length limit [moby/moby#37659](https://github.com/moby/moby/pull/37659)
 * LCOW: Fix builder using wrong cache layer [moby/moby#37356](https://github.com/moby/moby/pull/37356)
 * Fix json-log file descriptors leaking when using `--follow` [docker/engine#48](https://github.com/docker/engine/pull/48) [moby/moby#37576](https://github.com/moby/moby/pull/37576) [moby/moby#37734](https://github.com/moby/moby/pull/37734)
-* Fix a possible deadlock on closing the watcher on kqueue [moby/moby#37392](https://github.com/moby/moby/pull/37392)
+* Fix a possible deadlock on closing the watcher on kqueue [moby/moby#37392](https://github.com/moby/moby/pull/37392/
 * Use poller based watcher to work around the file caching issue in Windows [moby/moby#37412](https://github.com/moby/moby/pull/37412)
 * Handle systemd-resolved case by providing appropriate resolv.conf to networking layer [moby/moby#37485](https://github.com/moby/moby/pull/37485)
 * Remove support for TLS < 1.2 [moby/moby#37660](https://github.com/moby/moby/pull/37660)
@@ -139,7 +139,7 @@ Ubuntu 14.04 "Trusty Tahr" [docker-ce-packaging#255](https://github.com/docker/d
 
 > Important notes about this release
 >
-> If you're deploying UCP or DTR, use Docker EE Engine 17.06.
+> If you're deploying UCP or DTR, use Docker EE Engine 17.06 or 18.09. Consult the [Docker Compatibility Matrix](https://success.docker.com/article/compatibility-matrix) for more information
 {: .important}
 
 #### Runtime
@@ -152,7 +152,7 @@ Ubuntu 14.04 "Trusty Tahr" [docker-ce-packaging#255](https://github.com/docker/d
 
 > Important notes about this release
 >
-> If you're deploying UCP or DTR, use Docker EE Engine 17.06.
+> If you're deploying UCP or DTR, use Docker EE Engine 17.06 or 18.09. Consult the [Docker Compatibility Matrix](https://success.docker.com/article/compatibility-matrix) for more information
 {: .important}
 
 #### Client
