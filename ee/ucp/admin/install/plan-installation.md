@@ -94,7 +94,7 @@ a load balancer in front of your UCP controllers, include the appropriate IP
 address and FQDN of the load balancer's VIP by using
 one or more `--san` flags in the [install command](/reference/ucp/3.0/cli/install.md)
 or when you're asked for additional SANs in interactive mode.
-[Learn about high availability](../configure/set-up-high-availability.md).
+[Learn about high availability](../configure/set-up-high-availability.md). #Link is broken, content doesn't exist for 3.1 apparently.
 
 ## Use an external Certificate Authority
 
